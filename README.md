@@ -2,6 +2,8 @@
 
 `lad` is a small helper package for building [zap](https://pkg.go.dev/go.uber.org/zap) loggers with a clean, explicit API.
 
+The Go baseline is 1.24.13. For local workspace development, consuming modules can use `replace github.com/vmeko/lad => ../lad`.
+
 It supports:
 
 - Console logging (optionally colored)
