@@ -1,5 +1,7 @@
 # lad
 
+The standard build uses Go 1.26. Meko’s macOS 11 packager compiles the same sources with Go 1.24.13. See the [macOS 11 build instructions](../meko/docs/MACOS11.md).
+
 `lad` is a small helper package for building [zap](https://pkg.go.dev/go.uber.org/zap) loggers with a clean, explicit API.
 
 It supports:
