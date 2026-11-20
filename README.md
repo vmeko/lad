@@ -1,5 +1,7 @@
 # lad
 
+The `mac11` branch targets Go 1.24.13 for Meko's macOS 11 build. It retains the existing logging API and dependency versions. Build, tests, and vet pass on Windows; native macOS integration is pending.
+
 `lad` is a small helper package for building [zap](https://pkg.go.dev/go.uber.org/zap) loggers with a clean, explicit API.
 
 It supports:
