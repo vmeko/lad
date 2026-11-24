@@ -1,6 +1,6 @@
 module github.com/vmeko/lad
 
-go 1.26
+go 1.27.0
 
 require (
 	github.com/DeRuina/timberjack v1.4.7
